@@ -92,6 +92,10 @@ body {
   text-transform: uppercase;
   margin-top: 0.1rem;
 }
+.attribution {
+  color: white;
+  margin-top: 2rem;
+}
 @media screen and (min-width: 1440px) {
   .card {
     width: 70%;
@@ -104,5 +108,42 @@ body {
     flex-basis: 45%;
     background-image: url("./images/image-header-desktop.jpg");
     border-radius: 0 10px 10px 0;
+  }
+  .card-main {
+    flex-basis: 55%;
+    justify-content: flex-start;
+    padding: 0;
+  }
+  .card-main_content {
+    width: 100%;
+
+    align-items: flex-start;
+    text-align: left;
+    padding: 2rem 3rem 1.5rem 4rem;
+  }
+  .card-main_stats ul {
+    display: flex;
+  }
+  .card-main_title {
+    font-size: 1.2rem;
+    max-width: 480px;
+  }
+  .card-main_body {
+    margin-top: 1.5rem;
+
+    font-size: 0.9rem;
+
+    max-width: 450px;
+    line-height: 1.3rem;
+  }
+  .card-main_stats {
+    margin-top: 2rem;
+    width: 80%;
+    max-width: 400px;
+  }
+
+  .card-main_stats ul {
+    display: flex;
+    justify-content: space-between;
   }
 }
